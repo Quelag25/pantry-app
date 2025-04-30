@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pantry-graphql-orchestrator
+  profiles:
+    active: dev
+  config:
+    import: "configserver:http://localhost:8888/"
